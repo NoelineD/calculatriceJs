@@ -1,0 +1,79 @@
+body{
+    background-color: #aabcd3;
+}
+
+.grid-calculate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-template-areas: "resultat resultat resultat resultat"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4";
+    width:400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #c18fd3;
+    box-shadow: 0px 0px 10px rgba(1, 9, 36, 0.7);
+    border: 5px solid #001f3f;
+    border-radius: 10px;
+}
+
+.resultat { grid-area: resultat;
+            background-color: #c18fd3;
+}
+
+.bouton1, .bouton2, .bouton3, .bouton4 .bouton5{
+    grid-area: bouton;
+}
+
+.bouton .boutonEgale{
+   background-color:#63339E;
+   color:white;
+   width: 100%;
+   height: 100%;
+   font-size: 2em;
+   left:20px;
+}
+
+.bouton .boutonC{
+    background-color:#63339E;
+    color:white;
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+ }
+
+.bouton .blueButtons{
+    background-color:#9e9bf0;
+}
+
+.resultat input {
+    width: 80%;
+    height: 70%;
+    margin-top: 2%;
+    text-align:right;
+    margin-left:70px;
+    font-size: 2em;
+}
+.bouton .blueButtons{
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+}
+.bouton button:hover{
+cursor:pointer;
+background-color:#635fdc;
+color:white;
+}
+
+.calculate {
+    border: 2px solid #CCCCCC;
+    Padding:20px;
+    border-radius:15px 15px 15px 15px;
+}
+
+h1, h2 {text-align: center;}

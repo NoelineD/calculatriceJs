@@ -1,5 +1,6 @@
 body{
-    background-color: #aabcd3;
+    background-color: #444E53;
+    color: white;
 }
 
 .grid-calculate {
@@ -16,14 +17,14 @@ body{
     width:400px;
     height: 400px;
     margin: 0 auto;
-    background-color: #c18fd3;
+    background-color: #05090E;
     box-shadow: 0px 0px 10px rgba(1, 9, 36, 0.7);
     border: 5px solid #001f3f;
     border-radius: 10px;
 }
 
 .resultat { grid-area: resultat;
-            background-color: #c18fd3;
+            background-color: #05090E;
 }
 
 .bouton1, .bouton2, .bouton3, .bouton4 .bouton5{
@@ -31,7 +32,7 @@ body{
 }
 
 .bouton .boutonEgale{
-   background-color:#63339E;
+   background-color:#FAB803;
    color:white;
    width: 100%;
    height: 100%;
@@ -40,7 +41,7 @@ body{
 }
 
 .bouton .boutonC{
-    background-color:#63339E;
+    background-color:#FAB803;
     color:white;
     width: 100%;
     height: 100%;
@@ -48,7 +49,8 @@ body{
  }
 
 .bouton .blueButtons{
-    background-color:#9e9bf0;
+    background-color:#26445E;
+    color: white;
 }
 
 .resultat input {
@@ -66,7 +68,7 @@ body{
 }
 .bouton button:hover{
 cursor:pointer;
-background-color:#635fdc;
+background-color:#9FC1DD;
 color:white;
 }
 
